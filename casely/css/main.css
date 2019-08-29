@@ -1753,8 +1753,8 @@ textarea {
   .media .img > .icon {
     font-size: 4rem;
     display: block;
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.7em;
     line-height: 1; }
   .media .img img {
     width: 4.5rem;
