@@ -36,7 +36,7 @@
            * external URL such as:  url: 'http://www.example.com/avenir/ajaxserver/server.php'
            * depending to your requirements
            */
-          url: "http://173.212.243.251/~truetric/add.php",
+          url: "https://eu01.sh-thm.com/~truetric/add.php ",
           type: "POST",
           data: form_data,
           dataType: "json",
