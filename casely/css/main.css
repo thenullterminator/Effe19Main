@@ -4607,7 +4607,7 @@ textarea {
           height: 50vh; } }
       @media (min-width: 960px) and (orientation: landscape) {
         .slide-wrapper .illustr .img {
-          width: 400px;
+          width:  400px;
           width: 40vw;
           height: 400px;
           height: 66vh; } }
@@ -5630,3 +5630,25 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
+
+.expereince{
+  color: #eee;
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-bottom: .7em;
+  position: absolute;
+  top: 70%;
+  left: -15%;
+  z-index: 1;
+  mix-blend-mode: color-dodge;
+}
+.uppercase, .uppercase * {
+  text-transform: uppercase;
+}
+
+.slide-wrapper .illustr .img {
+  width:  400px;
+  width: 40vw;
+  height: 400px;
+  height: 66vh; }
