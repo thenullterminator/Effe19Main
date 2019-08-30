@@ -4604,20 +4604,24 @@ textarea {
       height: 300px; }
       @media (min-width: 768px) {
         .slide-wrapper .illustr .img {
-          height: 50vh; } }
+          height: 50vh; } 
+        }
       @media (min-width: 960px) and (orientation: landscape) {
         .slide-wrapper .illustr .img {
           width:  400px;
           width: 40vw;
           height: 400px;
-          height: 66vh; } }
+          height: 66vh; } 
+         }}
   .slide-wrapper .legend {
     padding: 16px;
     padding-top: 32px;
     padding-bottom: 32px; }
     @media (min-width: 768px) {
       .slide-wrapper .legend {
-        padding: 32px 64px; } }
+        padding: 32px 64px; }
+        
+       }
     @media (min-width: 960px) and (orientation: landscape) {
       .slide-wrapper .legend {
         position: absolute;
@@ -5594,7 +5598,6 @@ strong {
 
 h1, h2, h3, h4 {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-
 p {
   font-size: 1rem; }
   @media (min-width: 768px) {
@@ -5633,15 +5636,154 @@ p {
 
 .expereince{
   color: #eee;
-  font-size: 4em;
+  font-size: 3.5em;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   margin-bottom: .7em;
   position: absolute;
-  top: 70%;
-  left: -15%;
+  top: 60%;
+  left: -55%;
   z-index: 1;
   mix-blend-mode: color-dodge;
+}
+
+
+@media (max-width: 420px) and (orientation:landscape) {
+  .expereince{
+  font-size:2.25em; 
+  font-weight: 600;
+  margin-bottom: .40em;
+  top:-10%;
+  left:3.5%;
+  margin-left: 100px;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 18vw;
+    height: 400px;
+    height: 22vh; 
+    margin-left:350px;
+   }
+   .legend h3{
+     margin-top: -300px;
+     margin-left:450px;
+     position: relative;
+   }
+   .legend h4{
+     margin-left: 460px;
+     position: relative;
+   }
+   .legend p{
+     margin-top: 180px;
+     font-size: 10px;
+     margin-left: 12px;
+   }
+}
+
+@media (max-width: 960px) and (orientation:landscape) {
+  .expereince{
+  font-size:2.75em; 
+  font-weight: 650;
+  margin-bottom: .50em;
+  top:40%;
+  left:4%;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 15vw;
+    height: 400px;
+    height: 26vh; 
+    margin-left:350px;
+   }
+   .legend h3{
+     margin-top: -300px;
+     margin-left:450px;
+     z-index:1;
+     position: relative;
+   }
+   .legend h4{
+     margin-left: 460px;
+     position: relative;
+   }
+   .legend p{
+     margin-top: 180px;
+   }
+}
+@media (max-width: 760px) and (orientation:landscape) {
+  .expereince{
+  font-size:2.25em; 
+  font-weight: 600;
+  margin-bottom: .40em;
+  top:45%;
+  left:3.5%;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 18vw;
+    height: 400px;
+    height: 22vh; 
+    margin-left:350px;
+   }
+   .legend h3{
+     margin-top: -300px;
+     margin-left:450px;
+     position: relative;
+   }
+   .legend h4{
+     margin-left: 460px;
+     position: relative;
+   }
+   .legend p{
+     margin-top: 180px;
+     font-size: 15px;
+     margin-left: 12px;
+   }
+}
+@media (max-width: 690px) and (orientation:landscape) {
+  .expereince{
+  font-size:2.25em; 
+  font-weight: 600;
+  margin-bottom: .40em;
+  top:55%;
+  left:3.5%;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 18vw;
+    height: 400px;
+    height: 22vh; 
+    margin-left:350px;
+   }
+   .legend h3{
+     margin-top: -300px;
+     margin-left:450px;
+     position: relative;
+   }
+   .legend h4{
+     margin-left: 460px;
+     position: relative;
+   }
+   .legend p{
+     margin-top: 180px;
+     font-size: 15px;
+     margin-left: 12px;
+   }
+}
+
+@media (max-width: 1160px) and (orientation:landscape){
+  .expereince{
+  font-size:3.35em; 
+  font-weight: 800;
+  margin-bottom: .65em;
+  left:5%;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 15vw;
+    height: 400px;
+    height: 46vh; 
+    margin-left:305px;
+   }
 }
 .uppercase, .uppercase * {
   text-transform: uppercase;
@@ -5649,6 +5791,7 @@ p {
 
 .slide-wrapper .illustr .img {
   width:  400px;
-  width: 40vw;
+  width: 25vw;
   height: 400px;
-  height: 66vh; }
+  height: 56vh; 
+}
