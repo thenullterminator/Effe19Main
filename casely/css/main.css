@@ -5848,3 +5848,17 @@ p {
   height: 400px;
   height: 56vh; 
 } */
+#register{
+  margin: 0 auto;
+}
+
+#contact{
+  margin: 0 auto;
+
+}
+
+.register-button{
+  background-color: Transparent;
+  
+  border-bottom: 2px solid white;
+}
