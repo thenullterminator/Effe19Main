@@ -3171,6 +3171,7 @@ textarea {
     /*  Page cover background image,color */
     background: url(../bg.jpg);
     opacity:0.9;
+    color: #1d1d1d;
     /* filter: grayscale(100%); */
     background-repeat: no-repeat;
     background-size: cover;
