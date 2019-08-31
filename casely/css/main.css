@@ -2543,7 +2543,7 @@ textarea {
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }navbar-nav
+              justify-content: center; } }
   @media (min-width: 768px) {
     .page-header-alpha.topmenu-center .navbar-topmenu .navbar-nav-menu {
       height: 48px;
@@ -2792,7 +2792,7 @@ textarea {
       @media (min-width: 960px) {
         .page-header-alpha .navbar-mainmenu .nav-item {
           line-height: 0.8;
-          font-size: 4rem; } }
+          font-size: 3rem; } }
       @media (min-width: 768px) and (max-height: 480px) {
         .page-header-alpha .navbar-mainmenu .nav-item {
           font-size: 3rem; } }
@@ -2804,7 +2804,7 @@ textarea {
           color: #037FD5; }
       @media (min-width: 768px) {
         .page-header-alpha .navbar-mainmenu .nav-item {
-          font-weight: bold;
+          /* font-weight: bold; */
           text-transform: uppercase;
           opacity: 0;
           -webkit-transform: translateX(-20px);
