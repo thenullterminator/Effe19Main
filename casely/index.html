@@ -60,17 +60,17 @@ http://miradontsoa.com
   <!-- Main CSS files -->
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-
-  <!-- add alt layout here -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet"><!-- add alt layout here -->
   <link rel="stylesheet" href="css/style-default.css">
 
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-</head>
-
+</head> 
 <body id="menu" class="body-page">
   <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
 
   <!-- Page Loader : just comment these lines to remove it -->
   <div class="page-loader" id="page-loader">
@@ -80,20 +80,23 @@ http://miradontsoa.com
     </div>
   </div>
 
+  
+
+
   <!-- BEGIN OF site header Menu -->
   <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
 
     <!-- Begin of menu icon toggler -->
-    <!-- <button class="navbar-toggler site-menu-icon" id="navMenuIcon"> -->
+    <button class="navbar-toggler site-menu-icon" id="navMenuIcon"> 
       <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-      <!-- <span class="menu-icon menu-icon-normal">
+      <span class="menu-icon menu-icon-normal">
         <span class="bars">
           <span class="bar1"></span>
           <span class="bar2"></span>
           <span class="bar3"></span>
         </span>
       </span>
-    </button> -->
+    </button>
     <!-- End of menu icon toggler -->
 
     <!-- Begin of logo/brand -->
@@ -125,21 +128,21 @@ http://miradontsoa.com
       <!-- End of top menu -->
 
       <!-- Begin of hamburger mainmenu menu -->
-      <nav class="navbar-mainmenu">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index-2.html#home">Home
+      <nav class="navbar-mainmenu" style='display:flex;align-items: center;justify-content: flex-start;'>
+        <ul class="navbar-nav mr-auto" style='margin:0 auto;text-align: center'>
+          <li class="nav-item active" style="margin:10px">
+            <a  class="nav-link" href="./index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+          <li class="nav-item" style="margin:10px">
+            <a  class="nav-link" href="#">Events</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="item.html">Item</a>
+          <li class="nav-item" style="margin:10px">
+            <a  class="nav-link" href="./sponsor.html">Sponsors</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="demo.html">Demo</a>
+          <li class="nav-item" style="margin:10px">
+            <a  class="nav-link" href="./gallery/index.html">Gallery</a>
           </li>
         </ul>
       </nav>
@@ -235,7 +238,7 @@ http://miradontsoa.com
               <div class="title-desc">
                 <h1 class="display-4 display-title anim-1" style="margin-bottom: 20px;">About</h1>
 
-                <h4 class="anim-2">Relive the Reminiscence</h4>
+                <!-- <h4 class="anim-2">Relive the Reminiscence</h4> -->
                 <p class="anim-2" style="font-size:1.1em; margin:14px 0;">
                   Indian Institute of Information technology, Allahabad (A Centre of
                   Excellence in
@@ -260,7 +263,7 @@ http://miradontsoa.com
                   and amazing poetry skills. The various cultural events of literature, musical and
                   dramatics domain attract overwhelming talent from some of the best institutes across
                   India.
-                  <br>
+                  <br><br>
                   At IIITA, we believe that while academic merit is of paramount importance, cultural and
               sports skills, when incorporated into it, promote the integrated development of a student
               at an educational institution. Effervescence, thus, is an aspiring stride towards this
@@ -278,14 +281,14 @@ http://miradontsoa.com
               </div>
 
               <!-- Action button -->
-              <div class="btns-action anim-3">
+              <!-- <div class="btns-action anim-3">
                 <a class="btn btn-circicon btn-primary" href="./gallery/index.html">
                   <span class="icon">
                     <i class="ion ion-chevron-right"></i>
                   </span>
                   <span class="text">Gallery</span>
                 </a>
-              </div>
+              </div> -->
             </div>
 
           </div>
@@ -963,457 +966,7 @@ http://miradontsoa.com
     
     
 
-    <!-- Begin of list feature section -->
-    <div class="section section-list-feature fp-auto-height-responsive " data-section="services">
-      <!-- section cover -->
-      <div class="section-cover-full bg-img" data-image-src="./img/sections/services.png">
-      </div>
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Sponsors</h2>
-                <!-- <p class="anim-2">List of our services. Lorem ipsum magicum dolor sit amet, consectetur
-                  adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
-                  a sit amet nulla.
-                </p> -->
-              </div>
-            </div>
-          </div>
-
-          <!-- service list -->
-          <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list decor">
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://gaana.com/">
-                  <img  class="icon" style=" height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/gaana.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://www.instagram.com/bingo_comedy/">
-                  <img class="icon" style="  height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/bingo.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="http://www.amul.com/">
-                  <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/amul.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://www.fastrack.in/">
-                  <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/fastrack.jpeg">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-            
-          
-          </div>
-          <!-- service list -->
-          <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-              <!-- an item -->
-              <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://zebronics.com/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Zebronics.jpg">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.fbbonline.in/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/fbb.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.honda2wheelersindia.com/">
-                    <img class="icon" style=" height: 150px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/honda.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.nestle.in/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/nestle.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-              
-            
-            </div>
-            <!-- service list -->
-          <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-              <!-- an item -->
-              <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="#">
-                    <img class="icon" style="  height: 100px !important; opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/integriti.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.wittyfeed.tv/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Wittyfeed.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.facebook.com/thedanktales/">
-                    <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Terribly.jpg">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="http://www.theverbstudio.com/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/The Verb Studio.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-              
-            
-            </div>
-            <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                <!-- an item -->
-                <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.baskinrobbinsindia.com/">
-                      <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 150px !important;" src="./img/sponsors/br.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="http://www.intel.com/content/www/in/en/homepage.html">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/intel.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.bankofbaroda.in/">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/bank1.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.canarabank.com/">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/bank2.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                
-              
-              </div>
-            
-              <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                  <!-- an item -->
-                  <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.iob.in/">
-                        <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/bank3.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.viacom.com/">
-                        <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/viacom.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://israel.travel/">
-                        <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/israel.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwim09iavKjkAhWEhHAKHXOuD2YYABAAGgJzYg&ohost=www.google.com&cid=CAESQOD2_tIf7nCytlwwaC5qESkIqsN3fU59iGAHk1HOXyRmDCj8KsC9OLbgjVc7Qs20Y2QFi3BSWwdRUMa0bhbfA9w&sig=AOD64_1VrhTAAjE9MV2x4QC3uXrHuEdwPQ&q=&ved=2ahUKEwi0z8yavKjkAhXRSH0KHSl9CLcQ0Qx6BAgPEAE&adurl=">
-                        <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/max.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                  
-                
-                </div>
-
-                <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                    <!-- an item -->
-                    <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="https://www.jiosaavn.com/">
-                          <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/saavn.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="https://www.airtel.in/">
-                          <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 170px !important;" src="./img/sponsors/airtel.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="https://www.tata.com/">
-                          <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/tata.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="https://www.youtube.com/channel/UCM1VesJtJ9vTXcMLLr_FfdQ">
-                          <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/cokestudio.jpg">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                    
-                  
-                  </div>
-
-                  <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                      <!-- an item -->
-                      <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.bhaskar.com/">
-                            <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/db.jpg">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.patanjaliayurved.net/category/noodles/190">
-                            <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/patanjali.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="#">
-                            <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/ATKT-mobile.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://collegedunia.com/">
-                            <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/Collegedunialogo.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                      
-                    
-                    </div>
-                    <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                        <!-- an item -->
-                        <div class="item media">
-                          <div class="img">
-                              <a  class=" btn-transp-arrow" href="http://festpav.com/">
-                              <img class="icon" style="  height: 100px !important; opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/Fest Pav.png">
-                            <!-- <i class="icon ion-code-working"></i> -->
-                          </a>
-                          </div>
-                        </div>
-                        <!-- an item -->
-                         <!-- an item -->
-                         <div class="item media">
-                          <div class="img">
-                              <a  class=" btn-transp-arrow" href="https://www.lawctopus.com/">
-                              <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/lawctopus logo.png">
-                            <!-- <i class="icon ion-code-working"></i> -->
-                          </a>
-                          </div>
-                        </div>
-                        <!-- an item -->
-                         <!-- an item -->
-                         <div class="item media">
-                          <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.noticebard.com/"></a>
-                              <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/NoticeBard-logo.png">
-                            <!-- <i class="icon ion-code-working"></i> -->
-                          </a>
-                          </div>
-                        </div>
-                        <!-- an item -->
-                         <!-- an item -->
-                         <div class="item media">
-                          <div class="img">
-                              <a  class=" btn-transp-arrow" href="http://www.youthincmag.com/">
-                              <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/Youthincorporated.png">
-                            <!-- <i class="icon ion-code-working"></i> -->
-                          </a>
-                          </div>
-                        </div>
-                        <!-- an item -->
-                        
-                      
-                      </div>
-                      <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                          <!-- an item -->
-                          <div class="item media">
-                            <div class="img">
-                                <a  class=" btn-transp-arrow" href="https://www.flipkart.com/">
-                                <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/flipkart.png">
-                              <!-- <i class="icon ion-code-working"></i> -->
-                            </a>
-                            </div>
-                          </div>
-                          <!-- an item -->
-                           <!-- an item -->
-                           <div class="item media">
-                            <div class="img">
-                                <a  class=" btn-transp-arrow" href="https://www.patanjaliayurved.net/">
-                                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/patanjali2.png">
-                              <!-- <i class="icon ion-code-working"></i> -->
-                            </a>
-                            </div>
-                          </div>
-                          <!-- an item -->
-                           <!-- an item -->
-                           <div class="item media">
-                            <div class="img">
-                                <a  class=" btn-transp-arrow" href="https://www.olacabs.com/">
-                                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/ola.png">
-                              <!-- <i class="icon ion-code-working"></i> -->
-                            </a>
-                            </div>
-                          </div>
-                          <!-- an item -->
-                           <!-- an item -->
-                           <div class="item media">
-                            <div class="img">
-                                <a  class=" btn-transp-arrow" href="https://www.dominos.co.in/">
-                                <img class="icon" style=" height: 150px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/dominoes.png">
-                              <!-- <i class="icon ion-code-working"></i> -->
-                                </a>
-                            </div>
-                          </div>
-                          <!-- an item -->
-                          
-                        
-                        </div>
-            
-                
-                
-          
-          
-         
-
-        </div>
-
-
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Events</span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of list feature section -->
-
-
+    
    
 
 
