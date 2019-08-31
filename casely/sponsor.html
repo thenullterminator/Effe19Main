@@ -1,631 +1,454 @@
-<!doctype html>
-<!--
-Website By Miradontsoa / MiVFX
-http://twitter.com/miradontsoa
-http://miradontsoa.com
--->
+<!DOCTYPE html>
+<html lang="en">
 
-<html class="no-js" lang="en">
-
-
-<!-- Mirrored from demo.highhay.com/casely/item.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Aug 2019 17:31:09 GMT -->
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Sponsors</title>
 
-  <!-- Page Title Here -->
-  <title>Casely - A portfolio / onepage template</title>
+    <link rel="icon" href="/images/logo-2 (copy).png" type="image/gif" sizes="16x16">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Meta -->
-  <!-- Page Description Here -->
-  <meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- Disable screen scaling-->
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-  <!-- Twitter Meta -->
-  <meta name="twitter:site" content="@miradontsoa">
-  <meta name="twitter:creator" content="@miradontsoa">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Page Title">
-  <meta name="twitter:description" content="Description of the page">
-  <meta name="twitter:image" content="http://demo.highhay.com/img/bg-default.jpg">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
-  <!-- Facebook Meta -->
-  <meta property="og:url" content="your website url here">
-  <meta property="og:title" content="Page Title">
-  <meta property="og:description" content="Description of the page">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="http://demo.highhay.com/img/bg-default.jpg">
-  <meta property="og:image:secure_url" content="http://demo.highhay.com/img/bg-default.jpg">
-  <meta property="og:image:type" content="image/jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
 
-  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-  <!-- Web fonts and Web Icons -->
-  <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
-  <link rel="stylesheet" href="fonts/bebas/stylesheet.css">
-  <link rel="stylesheet" href="fonts/ionicons.min.css">
-  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="icon" href="images/effe-logo.jpg">
 
-  <!-- Vendor CSS style -->
-  <link rel="stylesheet" href="css/pageloader.css">
 
-  <!-- Uncomment below to load individualy vendor CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="js/vendor/swiper.min.css">
-  <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/sponsornew.css">
+   <link rel="stylesheet" href="css/main.css"> 
 
-  <!-- Main CSS files -->
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mixitup.js"></script>
 
-  <!-- add alt layout here -->
-  <link rel="stylesheet" href="css/style-default.css">
-
-  <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var filterList = {
+                init: function () {
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#portfoliolist').mixItUp({
+                        selectors: {
+                            target: '.portfolio',
+                            filter: '.filter'
+                        },
+                        load: {
+                            filter: '.all'
+                        }
+                    });
+                }
+            };
+            // Run the show!
+            filterList.init();
+        });
+    </script>
 </head>
 
-<body id="menu" class="body-item">
-  <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<body class="events-list-page" >
+  <div class="page-cover" id="parallax-cover">
+    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="../bg.jpg"></div>
+    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.6)"></div>
 
-  <!-- Page Loader : just comment these lines to remove it -->
-  <div class="page-loader" id="page-loader">
-    <div>
-      <div class="icon ion-spin"></div>
-      <p>loading</p>
-    </div>
+
   </div>
-
-  <!-- BEGIN OF site header Menu -->
-  <header class="page-header page-header-item navbar page-header-alpha scrolled-white menu-right topmenu-right">
-
-    <!-- Begin of menu icon toggler -->
-    <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
-      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-      <span class="menu-icon menu-icon-normal">
-        <span class="bars">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </span>
-      </span>
-    </button>
-    <!-- End of menu icon toggler -->
-
-    <!-- Begin of logo/brand -->
-    <!-- <a class="navbar-brand" href="index.html#">
-      <span class="logo">
-        <img class="light-logo" src="img/logo.png" alt="Logo">
-      </span>
-      <span class="text">
-        <span class="line">Casely</span>
-        <span class="line sub">Portfolio Template</span>
-      </span>
-    </a> -->
-    <!-- End of logo/brand -->
-
-    <!-- begin of menu wrapper -->
-    <div class="all-menu-wrapper" id="navbarMenu">
-      <!-- Begin of top menu -->
-      <nav class="navbar-topmenu">
-      </nav>
-      <!-- End of top menu -->
-
-      <!-- Begin of hamburger mainmenu menu -->
-      <nav class="navbar-mainmenu" style='display:flex;align-items: center;justify-content: flex-start;'>
-          <ul class="navbar-nav mr-auto" style='margin:0 auto;text-align: center'>
-            <li class="nav-item active" style="margin:10px">
-              <a class="nav-link" href="./index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item" style="margin:10px">
-              <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item" style="margin:10px">
-              <a class="nav-link" href="./sponsor.html">Sponsors</a>
-            </li>
-            <li class="nav-item" style="margin:10px">
-              <a class="nav-link" href="./gallery/index.html">Gallery</a>
-            </li>
-          </ul>
-        </nav>
-      <!-- End of hamburger mainmenu menu -->
-
-    </div>
-    <!-- end of menu wrapper -->
-
-  </header>
-  <!-- END OF site header Menu-->
+    <img class="znet-logo" src="Logos/ZnetLive.png">
 
 
+    <div class="container">
+        <div id="sponsors" class="events-partners">
 
-<!-- ********************************************************* -->
-<!-- Begin of list feature section -->
-<div class="section section-list-feature fp-auto-height-responsive " data-section="services">
-  <!-- section cover -->
-  <div class="section-cover-full bg-img" data-image-src="./img/sections/services.png">
-  </div>
-
-  <!-- Begin of section wrapper -->
-  <div class="section-wrapper fullwidth with-margin" style="margin-left:0px;margin-top:-50px">
-    <!-- content -->
-    <div class="section-content anim">
-      <div class="row">
-        <div class="col-12 col-lg-6 text-left">
-          <!-- title and description -->
-          <div class="title-desc">
-            <h2 class="display-4 display-title anim-1">Past Sponsors</h2>
-            <!-- <p class="anim-2">
-              Together Growing
-            </p> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- service list -->
-      <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list decor" style="margin-left:0px">
-        <!-- an item -->
-        <div class="item media">
-          <div class="img">
-              <a  class=" btn-transp-arrow" href="https://gaana.com/">
-              <img  class="icon" style=" height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/gaana.png">
-            <!-- <i class="icon ion-code-working"></i> -->
-          </a>
-            </a>
-          </div>
-        </div>
-        <!-- an item -->
-         <!-- an item -->
-         <div class="item media">
-          <div class="img">
-              <a  class=" btn-transp-arrow" href="https://www.instagram.com/bingo_comedy/">
-              <img class="icon" style="  height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/bingo.png">
-            <!-- <i class="icon ion-code-working"></i> -->
-          </a>
-          </div>
-        </div>
-        <!-- an item -->
-         <!-- an item -->
-         <div class="item media">
-          <div class="img">
-              <a  class=" btn-transp-arrow" href="http://www.amul.com/">
-              <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/amul.png">
-            <!-- <i class="icon ion-code-working"></i> -->
-          </a>
-          </div>
-        </div>
-        <!-- an item -->
-         <!-- an item -->
-         <div class="item media">
-          <div class="img">
-              <a  class=" btn-transp-arrow" href="https://www.fastrack.in/">
-              <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/fastrack.jpeg">
-            <!-- <i class="icon ion-code-working"></i> -->
-          </a>
-          </div>
-        </div>
-        <!-- an item -->
-        
-      
-      </div>
-      <!-- service list -->
-      <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-          <!-- an item -->
-          <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://zebronics.com/">
-                <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Zebronics.jpg">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
+            <!-- <div style="text-align:center">
+                <h1 class="display-4" style="color:white  ; font-weight: 600">EDM Night</h1>
             </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://www.fbbonline.in/">
-                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/fbb.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://www.honda2wheelersindia.com/">
-                <img class="icon" style=" height: 150px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/honda.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://www.nestle.in/">
-                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/nestle.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-          
-        
-        </div>
-        <!-- service list -->
-      <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-          <!-- an item -->
-          <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="#">
-                <img class="icon" style="  height: 100px !important; opacity: 1 !important;  margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/integriti.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://www.wittyfeed.tv/">
-                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Wittyfeed.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="https://www.facebook.com/thedanktales/">
-                <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/Terribly.jpg">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-           <!-- an item -->
-           <div class="item media">
-            <div class="img">
-                <a  class=" btn-transp-arrow" href="http://www.theverbstudio.com/">
-                <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/The Verb Studio.png">
-              <!-- <i class="icon ion-code-working"></i> -->
-            </a>
-            </div>
-          </div>
-          <!-- an item -->
-          
-        
-        </div>
-        <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://www.baskinrobbinsindia.com/">
-                  <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 150px !important;" src="./img/sponsors/br.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="http://www.intel.com/content/www/in/en/homepage.html">
-                  <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/intel.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://www.bankofbaroda.in/">
-                  <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/bank1.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-             <!-- an item -->
-             <div class="item media">
-              <div class="img">
-                  <a  class=" btn-transp-arrow" href="https://www.canarabank.com/">
-                  <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/bank2.png">
-                <!-- <i class="icon ion-code-working"></i> -->
-              </a>
-              </div>
-            </div>
-            <!-- an item -->
-            
-          
-          </div>
-        
-          <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-              <!-- an item -->
-              <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.iob.in/">
-                    <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/bank3.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.viacom.com/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/viacom.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://israel.travel/">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/israel.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-               <!-- an item -->
-               <div class="item media">
-                <div class="img">
-                    <a  class=" btn-transp-arrow" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwim09iavKjkAhWEhHAKHXOuD2YYABAAGgJzYg&ohost=www.google.com&cid=CAESQOD2_tIf7nCytlwwaC5qESkIqsN3fU59iGAHk1HOXyRmDCj8KsC9OLbgjVc7Qs20Y2QFi3BSWwdRUMa0bhbfA9w&sig=AOD64_1VrhTAAjE9MV2x4QC3uXrHuEdwPQ&q=&ved=2ahUKEwi0z8yavKjkAhXRSH0KHSl9CLcQ0Qx6BAgPEAE&adurl=">
-                    <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/max.png">
-                  <!-- <i class="icon ion-code-working"></i> -->
-                </a>
-                </div>
-              </div>
-              <!-- an item -->
-              
-            
-            </div>
-
-            <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                <!-- an item -->
-                <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.jiosaavn.com/">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/saavn.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.airtel.in/">
-                      <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 170px !important;" src="./img/sponsors/airtel.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.tata.com/">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/tata.png">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                 <!-- an item -->
-                 <div class="item media">
-                  <div class="img">
-                      <a  class=" btn-transp-arrow" href="https://www.youtube.com/channel/UCM1VesJtJ9vTXcMLLr_FfdQ">
-                      <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/cokestudio.jpg">
-                    <!-- <i class="icon ion-code-working"></i> -->
-                  </a>
-                  </div>
-                </div>
-                <!-- an item -->
-                
-              
-              </div>
-
-              <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                  <!-- an item -->
-                  <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.bhaskar.com/">
-                        <img class="icon" style=" height: 100px !important;  opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/db.jpg">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.patanjaliayurved.net/category/noodles/190">
-                        <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/patanjali.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="#">
-                        <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/ATKT-mobile.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                   <!-- an item -->
-                   <div class="item media">
-                    <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://collegedunia.com/">
-                        <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/Collegedunialogo.png">
-                      <!-- <i class="icon ion-code-working"></i> -->
-                    </a>
-                    </div>
-                  </div>
-                  <!-- an item -->
-                  
-                
-                </div>
-                <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                    <!-- an item -->
-                    <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="http://festpav.com/">
-                          <img class="icon" style="  height: 100px !important; opacity: 1 !important;  margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/Fest Pav.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="https://www.lawctopus.com/">
-                          <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/lawctopus logo.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                        <a  class=" btn-transp-arrow" href="https://www.noticebard.com/"></a>
-                          <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/NoticeBard-logo.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                     <!-- an item -->
-                     <div class="item media">
-                      <div class="img">
-                          <a  class=" btn-transp-arrow" href="http://www.youthincmag.com/">
-                          <img class="icon" style="  height: 100px !important; opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/Youthincorporated.png">
-                        <!-- <i class="icon ion-code-working"></i> -->
-                      </a>
-                      </div>
-                    </div>
-                    <!-- an item -->
-                    
-                  
-                  </div>
-                  <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list">
-                      <!-- an item -->
-                      <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.flipkart.com/">
-                            <img class="icon" style=" height: 100px !important;   opacity: 1 !important; margin-left: 50px !important; width: 250px !important;" src="./img/sponsors/flipkart.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
+            <div class="custom-margin"></div>
+            <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <a target="_blank" href="#">
+                            <img src="Logos/IDM Horizontal logo.png" class="img-fluid" alt="">
+                            
                         </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.patanjaliayurved.net/">
-                            <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/patanjali2.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.olacabs.com/">
-                            <img class="icon" style=" height: 100px !important;  opacity: 1 !important; margin-left: 50px !important; width: 200px !important;" src="./img/sponsors/ola.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
-                        </a>
-                        </div>
-                      </div>
-                      <!-- an item -->
-                       <!-- an item -->
-                       <div class="item media">
-                        <div class="img">
-                            <a  class=" btn-transp-arrow" href="https://www.dominos.co.in/">
-                            <img class="icon" style=" height: 150px !important;  opacity: 1 !important; margin-left: 50px !important; width: 180px !important;" src="./img/sponsors/dominoes.png">
-                          <!-- <i class="icon ion-code-working"></i> -->
+                        <h2 style="color:white  ;">Presented by</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <a target="_blank" href="#">
+                                <img src="Logos/integriti.png" class="img-fluid" alt="">
+                                
                             </a>
+                            <h2 style="color:white  ;">Powered by</h2>
                         </div>
-                      </div>
-                      <!-- an item -->
-                      
-                    
                     </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <a target="_blank" href="https://www.fastrack.in/">
+                        <img src="Logos/fastrack.png" class="img-fluid" alt="">
+                        
+                    </a>
+                    <h2 style="color:white  ;">Co-sponsored by</h2>
+                </div>
+            </div>
+            <br>
+            
+                <br>
+          -->
+            <div class="row justify-content-center custom-margin"> 
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white; font-weight: 600; margin-left:288px">Entertainment Partner</h1>
+                </div>
+                <div class="custom-margin"></div>                
+                <div class="col-md-6">
+                    <a target="_blank"  href="https://www.instagram.com/bingo_comedy/"><img src="img/sponsors/bingo.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white; font-weight: 600; margin-left:420px">Ala mode</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-6">
+                    <a target="_blank" href="https://www.fbbonline.in/"><img src="Logos/fbb.png" class="img-fluid" alt=""></a>
+                    <h2 style="color:white;">Title Sponsor</h2>
+                </div>
+                <div class="col-md-6">
+                    <a target="_blank" href="https://www.facebook.com/anwarsthepersonalitymaker/"><img src="Logos/Anwar.jpg" class="img-fluid" alt=""></a>
+                    <h2 style="color:white;">Makeup and Styling Partner</h2>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white; font-weight: 600; margin-left:338px">Event Partners</h1>
+                </div>
+                <div class="custom-margin1"></div>
+                <div class="col-md-3">
+                    <a target="_blank" href="http://www.theverbstudio.com/"><img src="Logos/The Verb Studio.png" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Footloose</h2>
+                </div>
+                
+                <div class="col-md-3">
+                    <a target="_blank" href="https://www.nestle.in/"><img src="Logos/nestle.png" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Nestle</h2>
+                </div>
+
+                <div class="col-md-3">
+                    <a target="_blank" href="https://www.wittyfeed.com/"><img src="Logos/Wittyfeed.png" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Carpediem</h2>
+                </div>
+
+                <div class="col-md-3">
+                    <h2 style="color: white ; font-weight: 600;">Madagascar & Fashion Dreams</h2>
+                    <h2 style="color: white ;">Innovation</h2>
+                </div>
+                <div class="col-md-3">
+                    <h1 style="color: white ; font-weight: 600;">Students Friends</h1>
+                    <h2 style="color: white ;">MUN</h2>
+                </div>
+                <!-- <div class="row align-items-center custom-margin justify-content-center"> -->
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.yourquote.in/"><img src="Logos/yourquote.png" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Open Mic</h2>
+
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.facebook.com/thedanktales/"><img src="Logos/Terribly.jpg" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Memeslam</h2>
+                </div>
+                <div class="col-md-3">
+                    <a target=""  href=""><img src="Logos/Withered.jpg" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Feathers</h2>
+                </div>
+
+                <div class="col-md-3">
+                    <a target=""  href="https://animeride.com/"><img src="Logos/animeride.png" class="img-fluid" alt=""></a>
+                    <h2 style="color: white ;">Animania</h2>
+                </div>
+            <!-- </div> -->
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:358px">Audio Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank" href="https://zebronics.com/"><img src="Logos/Zebronics.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Online Music Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank" href="https://gaana.com/"><img src="Logos/gaana.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Mobility Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank" href="https://www.honda2wheelersindia.com/"><img src="Logos/honda.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Gaming Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="https://neongamingstudio.com/"><img src="Logos/neon-logo.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Gifting Partners</h1>
+                </div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="https://www.thesouledstore.com/"><img src="Logos/Souled Store.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="https://www.patanjaliayurved.net/"><img src="Logos/Patanjali Atta Noodles.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-5">
+                        <a target="_blank"  href="#"><img src="Logos/yoso.jpeg" class="img-fluid" alt=""></a>
+                    </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Hydration Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="https://www.patanjaliayurved.net/"><img src="Logos/pdj.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Dairy Products Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="http://www.amul.com/"><img src="Logos/Amul.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Recording Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="http://resonancestudios.in/"><img src="Logos/Resonance.jpg" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600; margin-left:288px">Official Supply Chain Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="http://www.safexpress.com/"><img src="Logos/safeexpress.jpg" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Official Ticketing Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.thecollegefever.com/"><img src="Logos/collegefever.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Animal Rights Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.peta.org/"><img src="Logos/Peta.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Banking Partners</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.canarabank.in/"><img src="Logos/canara.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.hdfcbank.com/"><img src="Logos/hdfc.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.pnbindia.in/"><img src="Logos/pnb.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.iob.in/"><img src="Logos/iob.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.bankofbaroda.co.in/"><img src="Logos/bob.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.sbi.co.in/"><img src="Logos/sbi.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.axisbank.com/"><img src="Logos/axis.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.indianbank.net.in/"><img src="Logos/indian.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Radio Partner</h1>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.facebook.com/feverAllahabadi/"><img src="Logos/Fever 94.3 FM.jpg" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Web Hosting Partner</h1>
+                </div>
+                <div class="col-md-12">
+                    <a target="_blank"  href="https://www.znetlive.com/"><img src="Logos/ZnetLive.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Official Outreach Partner</h1>
+                </div>
+                <div class="col-md-6">
+                    <a target="_blank"  href="https://www.wittyfeed.tv/"><img src="Logos/Wittyfeed.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4" style="color:white  ; font-weight: 600">Talent Partner</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <a target="_blank"  href="https://atkt.in/"><img src="Logos/ATKT-mobile.png" class="img-fluid" alt="talent partner atkt"></a>
+                    </div>
+                </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Blogger Outreach Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-5">
+                    <a target="_blank"  href="https://www.blogadda.com/"><img src="Logos/BlogAdda.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Blog Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-4">
+                    <a target="_blank"  href="https://edtimes.in/"><img src="Logos/EDTimes.jpg" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Cashback Partner</h1>
+                </div>
+                <div class="custom-margin"></div>
+                <div class="col-md-4">
+                    <a target="_blank"  href="https://www.paisawapas.com/"><img src="Logos/paisawapas_owler_20160229_213022_original.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-center custom-margin justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="display-4" style="color:white  ; font-weight: 600">Online Media Partners</h1>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="http://festpav.com/"><img src="Logos/Fest Pav.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://collegedunia.com/"><img src="Logos/Collegedunialogo.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="http://ohcampus.com/v2/"><img src="Logos/OhCampus Logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                <div class="col-md-3">
+                    <a target="_blank"  href="http://www.youthincmag.com/"><img src="Logos/Youthincorporated.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.lawctopus.com/"><img src="Logos/LawctopusNoticeboard/lawctopus logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank"  href="https://www.noticebard.com/"><img src="Logos/LawctopusNoticeboard/NoticeBard-logo.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- <figure class="footer-logo">
+                    <a href="#"><a target="_blank"  href=""><img src="images/logo.png" alt="logo"></a>
+                </figure> -->
+
+                    <nav class="footer-navigation">
+                        <ul class="flex flex-wrap justify-content-center align-items-center">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/index.html#proshows">Proshows</a></li>
+                            <li><a href="events.html" target="_blank">Events</a></li>
+                            <li><a href="sponsors.html" target="_blank">Sponsors</a></li>
+                            <li><a href="developers.html" target="_blank">Developers</a></li>
+                            <li><a href="contact.html" target="_blank">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o"
+                        aria-hidden="true"></i> by <a href="developers.html" target="_blank">Team Effe</a>
+
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                    <div class="footer-social">
+                        <ul class="flex flex-wrap justify-content-center align-items-center">
+                            <li><a href="https://www.instagram.com/goeffervescence/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/effervescence.iiita/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/goeffervescence?lang=en"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/effervescenceMM13/"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top flex justify-content-center align-items-center">
+        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z" /></svg></span>
     </div>
 
-
-
-
-    <!-- Arrows scroll down/up -->
-    <footer class="section-footer scrolldown">
-      <a class="down">
-        <span class="icon"></span>
-        <span class="txt">Events</span>
-      </a>
-    </footer>
-  </div>
-  <!-- End of section wrapper -->
-</div>
-<!-- End of list feature section -->
-
-
-<!-- ********************************************************* -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- scripts -->
-  <!-- All Javascript plugins goes here -->
-  <script src="js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="js/slick/slick.min.js"></script>
-
-  <!-- All vendor scripts -->
-  <script src="js/vendor/parallax.min.js"></script>
-  <script src="js/vendor/scrolloverflow.min.js"></script>
-  <script src="js/vendor/all.js"></script>
-  <script src="js/particlejs/particles.min.js"></script>
-
-  <!-- Countdown script -->
-  <script src="js/jquery.downCount.js"></script>
-
-  <!-- Form script -->
-  <script src="js/form_script.js"></script>
-
-  <!-- Javascript main files -->
-  <script src="js/main.js"></script>
-
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
 
 </body>
 
-
-<!-- Mirrored from demo.highhay.com/casely/item.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Aug 2019 17:31:19 GMT -->
 </html>

@@ -41,6 +41,9 @@ http://miradontsoa.com
 	font-family :
 	-  sans-serif Segoe UI / Roboto / Open sans / Helvetica with fallback to system-ui fonts
 */
+/* .gra{
+  background-image: linear-gradient(rgba(0,0,0,0.1),url("../bg.jpg"));
+} */
 .text-black {
   color: #1d1d1d !important; }
 
@@ -3166,7 +3169,9 @@ textarea {
     width: 100%;
     height: 100%;
     /*  Page cover background image,color */
-    background: url(../img/bg-default.jpg);
+    background: url(../bg.jpg);
+    opacity:0.9;
+    /* filter: grayscale(100%); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
