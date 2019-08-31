@@ -5633,7 +5633,7 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
-
+@media(min-width:760px)and (max-width:1440px){
 .expereince{
   color: #eee;
   font-size: 3.5em;
@@ -5646,8 +5646,14 @@ p {
   z-index: 1;
   mix-blend-mode: color-dodge;
 }
-
-
+.slide-wrapper .illustr .img {
+  width:  400px;
+  width: 20vw;
+  height: 400px;
+  height: 50vh; 
+  margin-left:80px;
+ }}
+/* 
 @media (max-width: 420px) and (orientation:landscape) {
   .expereince{
   font-size:2.25em; 
@@ -5794,4 +5800,21 @@ p {
   width: 25vw;
   height: 400px;
   height: 56vh; 
+} */
+@media(max-width:420px) and (orientation:landscape){
+  .legend h3{
+    margin-top: -300px;
+    margin-left:450px;
+    position: relative;
+    font-size: :200px;
+  }
+  .legend h4{
+    margin-left: 460px;
+    position: relative;
+  }
+  .legend p{
+    margin-top: 180px;
+    font-size: 12px;
+    margin-left: 12px;
+  }
 }
