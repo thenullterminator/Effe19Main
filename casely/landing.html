@@ -65,6 +65,10 @@ http://miradontsoa.com
   <link href="https://fonts.googleapis.com/css?family=Athiti&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.23.0/slimselect.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.23.0/slimselect.min.css">
+
 </head> 
 <body id="menu" class="body-page">
   <!--[if lt IE 8]>
@@ -706,6 +710,11 @@ http://miradontsoa.com
                     required placeholder="Enter Your College"
                     />
                   </div>
+                  <select id="single">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
                   <div class="form-group form-success-gone">
                     <input  name="phone" class="form-control-line form-control"
                     required placeholder="Enter Your Phone Number"
@@ -716,6 +725,18 @@ http://miradontsoa.com
                     required placeholder="your@email.address" data-validation-type="email"
                     />
                   </div>
+                  <select id="multiple-optgroups" multiple>
+                    <optgroup label="Label 1">
+                      <option value="value 1">Value 1</option>
+                      <option value="value 2">Value 2</option>
+                      <option value="value 3">Value 3</option>
+                    </optgroup>
+                    <optgroup label="Label 2">
+                      <option value="value 21">Value 1</option>
+                      <option value="value 22">Value 2</option>
+                      <option value="value 23">Value 3</option>
+                    </optgroup>
+                  </select>
                   <div class="form-group form-success-gone">
                     <label >Event: </label>
                     <br>
@@ -966,6 +987,14 @@ http://miradontsoa.com
   <!-- END OF site footer -->
 
   <!-- scripts -->
+  <script>
+    new SlimSelect({
+        select: '#single'
+      });
+    new SlimSelect({
+      select: '#multiple-optgroups'
+    });
+  </script>
   <!-- All Javascript plugins goes here -->
   <script src="js/vendor/jquery-1.12.4.min.js"></script>
   <script src="js/slick/slick.min.js"></script>
