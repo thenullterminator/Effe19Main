@@ -5633,7 +5633,27 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
-@media(min-width:760px)and (max-width:1440px){
+@media(min-width:960px)and (max-width:1160px){
+  .expereince{
+    color: #eee;
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-bottom: .7em;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    z-index: 1;
+    mix-blend-mode: color-dodge;
+  }
+  .slide-wrapper .illustr .img {
+    width:  400px;
+    width: 20vw;
+    height: 400px;
+    height: 50vh; 
+    margin-left:250px;
+   }}
+@media(min-width:1160px)and (max-width:1440px){
 .expereince{
   color: #eee;
   font-size: 3.5em;
@@ -5653,6 +5673,8 @@ p {
   height: 50vh; 
   margin-left:80px;
  }}
+
+
 /* 
 @media (max-width: 420px) and (orientation:landscape) {
   .expereince{
