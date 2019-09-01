@@ -484,6 +484,7 @@
             allowTilt = false;
             this.isContentOpen = true;
             this.DOM.el.classList.add('slideshow--previewopen');
+            this.DOM.el.classList.add('grayscale');
             TweenMax.to(this.DOM.deco, .8, {
                 ease: Power4.easeInOut,
                 scaleX: winsize.width/this.DOM.deco.offsetWidth,
@@ -505,6 +506,8 @@
             if ( !this.isContentOpen || this.isAnimating ) return;
 
             this.DOM.el.classList.remove('slideshow--previewopen');
+            this.DOM.el.classList.remove('grayscale');
+
 
             // Hide content.
             this.contents[this.current].hide();
