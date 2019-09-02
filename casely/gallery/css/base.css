@@ -164,10 +164,7 @@ a:focus {
 	}
 }
 
-.frame__title {
-	font-size: 1rem;
-	margin: 0 0 1rem;
-}
+
 
 .frame__links {
 	display: inline;
@@ -190,9 +187,7 @@ a:focus {
 	letter-spacing: 40px;
 }
 
-.frame__pagetitle {
-	margin: 3rem 0 0 0;
-}
+
 
 .frame__pagetitle span {
 	display: block;
@@ -305,3 +300,26 @@ a:focus {
 		overflow: hidden;
 	}
 }
+
+@media screen and (min-width : 800px)
+{
+	
+	.frame h1{
+		font-size: 1.2em;
+	}
+}
+
+.frame h1{
+	font-size: 1.2em;
+}
+
+@media screen and (max-width : 500px)
+{
+	.frame__pagetitle {
+		display: none;
+	}
+	
+	.frame h1{
+		display : none;
+	}
+}	
