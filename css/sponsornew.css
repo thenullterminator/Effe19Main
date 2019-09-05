@@ -53,10 +53,6 @@ h1{
       color: royalblue;
   }
   
-  a:visited {
-      color: purple;
-  }
-  
   a:hover, a:focus, a:active {
       color: midnightblue;
   }
