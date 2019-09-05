@@ -270,11 +270,12 @@ a:focus {
 	}
 	.frame__pagetitle {
 		grid-area: pagetitle;
-		margin: 0;
+		text-align: right;
 	}	
 	.frame__title-wrap {
 		grid-area: title;
 		display: flex;
+		
 	}
 	.frame__title {
 		margin: 0;
@@ -294,7 +295,7 @@ a:focus {
 	}
 	.frame a {
 		pointer-events: auto;
-	}
+ 	}
 	.content {
 		height: 100vh;
 		overflow: hidden;
