@@ -139,6 +139,19 @@ a:focus {
 	width: 2rem;
 }
 
+@media screen and (max-width: 53em)
+{
+	.message img
+	{
+	width: 11rem;
+	}
+
+	.light-logo
+	{
+		width: 0px;
+	}
+}
+
 .message span{
 	font-size: 1.5rem;
 }
@@ -270,7 +283,8 @@ a:focus {
 	}
 	.frame__pagetitle {
 		grid-area: pagetitle;
-		text-align: right;
+		margin-left: 128%;
+    	margin-top: -580px;
 	}	
 	.frame__title-wrap {
 		grid-area: title;
@@ -324,3 +338,22 @@ a:focus {
 		display : none;
 	}
 }	
+
+/*.frame {
+	width:100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+.frame a#back
+{
+  float: right;
+  color: white;
+}*/
