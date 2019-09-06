@@ -111,7 +111,6 @@ a:focus {
 
 .frame a {
 	pointer-events: auto;
-	color: white;
 }	
 
 /* Header */
@@ -139,7 +138,7 @@ header img{
 @media screen and (max-width: 800px)
 {
 	header img{
-		margin-top: -25%;
+		margin-top: -41%;
 		margin-left: -2%;
 		display: block;
 	}
@@ -448,8 +447,11 @@ header img{
 .js .content__subtitle,
 .js .content__number,
 .js .content__text,
-.js .content__close {
+.js .content__close,
+.js .button
+ {
 	opacity: 0;
+
 }
 
 
@@ -551,6 +553,8 @@ header img{
 		max-width: 600px;
 		text-align: justify;
 	}
+
+	
 }
 .slide__title-wrap {
 	margin: 50vh 0 0 -3.85rem;
@@ -571,7 +575,7 @@ header img{
 	min-height: 50px;
 }
 
-a.back
+a.bck
 {
 	display: none;
 }
@@ -593,7 +597,7 @@ a.back
 	padding-top: 40px;
 	}
 
-	a.back{
+	a.bck{
 		display: block;
 		margin-left: 200px;
 		font-size: 18px;
@@ -602,3 +606,46 @@ a.back
 	}
 }
 
+.overlay
+    {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0);
+        z-index: 5;
+        color:white;
+        overflow-y: scroll;
+    }
+    .overlay ol{
+        margin-left:25px;
+        margin-right:25px;
+        padding-top:20px;
+        list-style-type: decimal;
+    }
+
+    @media screen and (max-width: 400px)
+    {
+        .overlay ol{
+            margin-left:15px;
+            margin-right:15px;
+            padding-top:20px;
+            list-style-type: decimal;
+        }
+
+    }
+
+    .overlay ol li{
+        margin-top: 10px;
+    }
+
+    .overlay u{
+        color:white;
+    }
+
+
+	
