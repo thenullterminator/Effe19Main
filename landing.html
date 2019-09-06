@@ -84,6 +84,14 @@ http://miradontsoa.com
   <link rel="stylesheet" type="text/css" href="css/base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
   <!-- Main CSS-->
+  <style>
+    @media  screen and (max-width: 500px) {
+      #logo{
+        width:20rem !important;
+        margin-left:25px !important;
+      }
+    }
+  </style>
 </head> 
 <body id="menu" class="body-page">
   <!--[if lt IE 8]>
@@ -122,8 +130,8 @@ http://miradontsoa.com
     <!-- Begin of logo/brand -->
     <a class="navbar-brand" href="index.html#">
       <span class="logo">
-        <img class="light-logo" src="./img/logo3.png" alt="Logo" style="width: 13rem; height:6rem;">
-      </span>
+        <!-- <img class="light-logo" src="./img/logo3.png" alt="Logo" style="width: 43rem;">
+      </span> -->
       <!-- <span class="text">
         <span class="line">Effervescence</span>
         <span class="line sub">Relive the Reminiscence</span>
@@ -465,8 +473,11 @@ http://miradontsoa.com
             <div class="col-12 col-lg-6 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h1 class="display-4 display-title home-title decor anim-1">Effervescence-19</h1>
-                <h4 class="anim-2">Relive the Reminiscence</h4>
+                  <img id='logo' class="light-logo" src="./img/logo3.png" alt="Logo" style="width: 43rem;">
+      
+                <!-- <h1 class="display-4 display-title home-title decor anim-1"><img class="light-logo" src="./img/logo3.png" alt="Logo" style="width: 43rem;"> -->
+                <!-- </h1> -->
+                <!-- <h4 class="anim-2">Relive the Reminiscence</h4> -->
                 <!-- <p class="anim-2">This is a Bootstrap 4 based template, helping you to build modern
                   and beautiful websites</p> -->
               </div>
