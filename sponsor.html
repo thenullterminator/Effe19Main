@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Sponsors</title>
-
-    <link rel="icon" type="image/png" sizes="56x56" href="https://effe.org.in/img/background/finallogo2.png">
+    <title> Past Sponsors</title>
+    <link rel="shortcut icon" href="/finallogo.png">
+    <!-- <link rel="icon" type="image/png" sizes="56x56" href="https://effe.org.in/img/background/finallogo2.png"> -->
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -37,6 +37,76 @@
 
 
 <style>
+
+       
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+#loader{
+position: fixed;
+z-index: 200;
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+background: #030321;
+font-family: Arial;
+/* background: #fff; */
+display: flex;
+justify-content: center;
+align-content: flex-end;
+font-weight: 800;
+}
+html, body{
+overflow-y:hidden !important;
+height: 100%;
+
+}
+
+
+#loader svg {
+font: 10.5em 'Montserrat';
+width: 960px;
+height: 250px;
+margin: 0 auto;
+margin-top:30vh;
+}
+
+.text-copy {
+fill: none;
+stroke: white;
+stroke-dasharray: 6% 29%;
+stroke-width: 5px;
+stroke-dashoffset: 0%;
+animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+stroke: #4D163D;
+animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+stroke: #840037;
+animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+stroke: #BD0034;
+animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+stroke: #BD0034;
+animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+stroke: #FDB731;
+animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+1
 body{
     overflow-x:hidden;
 }
@@ -227,14 +297,32 @@ body{
 }
 
 </style>
-
+ <script>
+        window.onload = function(){ document.getElementById("loader").style.display = "none"; }
+</script>
 
 <body>
+        <div id="loader">
+                <svg viewBox="0 0 960 300">
+                  <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="80%">effe'19</text>
+                  </symbol>
+                
+                  <g class = "g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                  </g>
+                </svg>
+                <!-- <h2 style="color: aliceblue;">Relive The Reminiscence</h2> -->
+              </div>
     
     <div class="events-list-page">
         <div class="layer">
                 <img src="Asset 8@4x-8.png" width="180px" height="auto">
-                <a  id="back" href="landing.html">Go back</a>
+                <a  id="back" href="index.html">Go back</a>
             <div class="page-cover" id="parallax-cover">
                 <!-- <div data-depth="0.2" class="cover-bg bg-img" data-image-src="../bg.jpg"></div> -->
                 <div class="cover-bg-mask bg-color" style="background: #780206;  /* fallback for old browsers */
