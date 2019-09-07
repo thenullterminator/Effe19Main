@@ -252,6 +252,18 @@ a:focus {
 	background-size: cover;
 }
 
+@media screen and (max-width: 53em)
+{
+	.content__img--full
+	{
+		margin-top: 60px;
+	}
+
+	div.frame{
+		margin-top: 60px;
+	}
+}
+
 @media screen and (min-width: 53em) {
 	:root {
 		font-size: 18px;
@@ -284,7 +296,7 @@ a:focus {
 	.frame__pagetitle {
 		grid-area: pagetitle;
 		margin-left: 128%;
-    	margin-top: -580px;
+    	margin-top: -60%;
 	}	
 	.frame__title-wrap {
 		grid-area: title;
@@ -357,3 +369,18 @@ a:focus {
   float: right;
   color: white;
 }*/
+
+.back
+{
+	display: none;
+	margin-left: 170px;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 440px)
+{
+	.back{
+		display: block;
+	}
+}
